@@ -1,5 +1,5 @@
 # MultithreadedHashing
-I used multithreading to find unique and deterministic (i.e. replicable) hash values for specified input files (placed in the same directory as the project). 
+I used multithreading to find unique and deterministic (i.e. replicable) hash values for specified input files (placed in the same directory as the project). I used Mutex locks to guarantee consistency of results (determinism). 
 
 ## Custom number of threads and other input
 The program take the file name and the number of threads as input. Run using MTHashing [filename] [numberOfThreads].   
